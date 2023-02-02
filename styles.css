@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
+}
+h1{
+  color: white;
+  font-family: Overpass;
+  margin-left: 30px;
+  position: relative;
+  bottom: 50px;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-family: Overpass;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 0 20px;
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+}
+#star{
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 54%);
+}
+
+#thanks{
+  position: relative;
+  left: 100px;
+  bottom: 70px;
+}
+
+#sub{
+  margin-left: 30px;
+  padding: 10px 120px;
+  position: relative;
+  top: 80px;
+  left: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-family: Overpass;
+
+}
+#sub:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.btn{
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: hsl(216, 12%, 54%);
+  height: 3rem;
+  width: 3rem;
+  margin: auto 12px;
+}
+
+
+
+.btn:hover{
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+.container{
+padding: 140px 0px 140px 0px;
+background-color: hsl(213, 19%, 18%);
+border-radius: 25px;
+margin: 150px 600px;
+
+}
+
+.thank-you{
+  padding: 140px 0px 140px 0px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 25px;
+  margin: 150px 600px;
+}
+
+.hidden{
+  display: none;
+}
+
+#nums{
+  letter-spacing: 30px;
+  position: relative;
+  top: 30px;
+  left: 15px;
+  color: white;
+}
+
+.rating{
+  position: relative;
+  bottom: 60px;
+  left: 90px;
+}
+
+#gratitude{
+  text-align: center;
+  position: relative;
+  right: 10px;
+}
